@@ -1,0 +1,17 @@
+running egg_info
+writing ../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info/PKG-INFO
+writing dependency_links to ../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info/dependency_links.txt
+writing requirements to ../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info/requires.txt
+writing top-level names to ../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info/top_level.txt
+reading manifest file '../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info/SOURCES.txt'
+writing manifest file '../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/fayez/ros2_ws/install/formation_saha_barhoum/lib/python3.12/site-packages/formation_saha_barhoum-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info to /home/fayez/ros2_ws/install/formation_saha_barhoum/lib/python3.12/site-packages/formation_saha_barhoum-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/fayez/ros2_ws/build/formation_saha_barhoum/install.log'

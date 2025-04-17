@@ -1,0 +1,2 @@
+Invoking command in '/home/fayez/ros2_ws/build/pubsub_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fayez/ros2_ws/install/pubsub_demo:/opt/ros/rolling /usr/bin/cmake /home/fayez/ros2_ws/src/pubsub_demo -DCMAKE_INSTALL_PREFIX=/home/fayez/ros2_ws/install/pubsub_demo
+Invoked command in '/home/fayez/ros2_ws/build/pubsub_demo' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fayez/ros2_ws/install/pubsub_demo:/opt/ros/rolling /usr/bin/cmake /home/fayez/ros2_ws/src/pubsub_demo -DCMAKE_INSTALL_PREFIX=/home/fayez/ros2_ws/install/pubsub_demo

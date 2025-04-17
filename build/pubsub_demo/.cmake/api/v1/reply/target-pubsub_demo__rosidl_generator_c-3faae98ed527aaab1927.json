@@ -1,0 +1,575 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "libpubsub_demo__rosidl_generator_c.so"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"ament_execute_extensions",
+			"rosidl_generate_interfaces",
+			"install",
+			"target_link_libraries",
+			"set_target_properties",
+			"find_package",
+			"add_dependencies",
+			"add_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"/opt/ros/rolling/share/rosidl_generator_c/cmake/rosidl_generator_c_generate_interfaces.cmake",
+			"/opt/ros/rolling/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/opt/ros/rolling/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake",
+			"CMakeLists.txt",
+			"/opt/ros/rolling/share/rcutils/cmake/rcutilsExport.cmake",
+			"/opt/ros/rolling/share/rcutils/cmake/ament_cmake_export_targets-extras.cmake",
+			"/opt/ros/rolling/share/rcutils/cmake/rcutilsConfig.cmake",
+			"/opt/ros/rolling/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/rolling/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake",
+			"/opt/ros/rolling/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/rolling/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake",
+			"/opt/ros/rolling/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/rolling/share/std_msgs/cmake/std_msgsConfig.cmake",
+			"/opt/ros/rolling/share/ament_cmake_ros_core/cmake/ament_cmake_ros_core-extras.cmake",
+			"/opt/ros/rolling/share/ament_cmake_ros_core/cmake/ament_cmake_ros_coreConfig.cmake",
+			"/opt/ros/rolling/share/ament_cmake_ros/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/rolling/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake",
+			"/opt/ros/rolling/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c_generate_interfaces.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 280,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 143,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 200,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 165,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 165,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 165,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 170,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"file" : 12,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 12,
+				"line" : 41,
+				"parent" : 12
+			},
+			{
+				"file" : 11,
+				"parent" : 13
+			},
+			{
+				"command" : 7,
+				"file" : 11,
+				"line" : 21,
+				"parent" : 14
+			},
+			{
+				"file" : 10,
+				"parent" : 15
+			},
+			{
+				"command" : 1,
+				"file" : 10,
+				"line" : 41,
+				"parent" : 16
+			},
+			{
+				"file" : 9,
+				"parent" : 17
+			},
+			{
+				"command" : 7,
+				"file" : 9,
+				"line" : 21,
+				"parent" : 18
+			},
+			{
+				"file" : 8,
+				"parent" : 19
+			},
+			{
+				"command" : 1,
+				"file" : 8,
+				"line" : 41,
+				"parent" : 20
+			},
+			{
+				"file" : 7,
+				"parent" : 21
+			},
+			{
+				"command" : 7,
+				"file" : 7,
+				"line" : 21,
+				"parent" : 22
+			},
+			{
+				"file" : 6,
+				"parent" : 23
+			},
+			{
+				"command" : 1,
+				"file" : 6,
+				"line" : 41,
+				"parent" : 24
+			},
+			{
+				"file" : 5,
+				"parent" : 25
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 9,
+				"parent" : 26
+			},
+			{
+				"file" : 4,
+				"parent" : 27
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 61,
+				"parent" : 28
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 174,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 152,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 17,
+				"parent" : 32
+			},
+			{
+				"command" : 7,
+				"file" : 17,
+				"line" : 21,
+				"parent" : 33
+			},
+			{
+				"file" : 16,
+				"parent" : 34
+			},
+			{
+				"command" : 1,
+				"file" : 16,
+				"line" : 41,
+				"parent" : 35
+			},
+			{
+				"file" : 15,
+				"parent" : 36
+			},
+			{
+				"command" : 7,
+				"file" : 15,
+				"line" : 21,
+				"parent" : 37
+			},
+			{
+				"file" : 14,
+				"parent" : 38
+			},
+			{
+				"command" : 1,
+				"file" : 14,
+				"line" : 41,
+				"parent" : 39
+			},
+			{
+				"file" : 13,
+				"parent" : 40
+			},
+			{
+				"command" : 9,
+				"file" : 13,
+				"line" : 18,
+				"parent" : 41
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 158,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=gnu11 -fPIC"
+				},
+				{
+					"backtrace" : 31,
+					"fragment" : "-Wall"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "ROSIDL_GENERATOR_C_BUILDING_DLL_pubsub_demo"
+				},
+				{
+					"backtrace" : 42,
+					"define" : "ROS_PACKAGE_NAME=\"pubsub_demo\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 43,
+					"path" : "/home/fayez/ros2_ws/build/pubsub_demo/rosidl_generator_c"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/opt/ros/rolling/include/std_msgs"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/opt/ros/rolling/include/builtin_interfaces"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/opt/ros/rolling/include/rosidl_runtime_c"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/opt/ros/rolling/include/rcutils"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/opt/ros/rolling/include/rosidl_typesupport_interface"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "/opt/ros/rolling/include/service_msgs"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					31
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 30,
+			"id" : "pubsub_demo__rosidl_generator_type_description::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "pubsub_demo__rosidl_generator_c::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/fayez/ros2_ws/install/pubsub_demo"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/opt/ros/rolling/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/rolling/lib/libstd_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/rolling/lib/libservice_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/opt/ros/rolling/lib/libbuiltin_interfaces__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "/opt/ros/rolling/lib/librosidl_runtime_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "/opt/ros/rolling/lib/librcutils.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "pubsub_demo__rosidl_generator_c",
+	"nameOnDisk" : "libpubsub_demo__rosidl_generator_c.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				14
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/fayez/ros2_ws/build/pubsub_demo/rosidl_generator_c/pubsub_demo/msg/custom_message.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/fayez/ros2_ws/build/pubsub_demo/rosidl_generator_c/pubsub_demo/msg/detail/custom_message__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/fayez/ros2_ws/build/pubsub_demo/rosidl_generator_c/pubsub_demo/msg/detail/custom_message__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/fayez/ros2_ws/build/pubsub_demo/rosidl_generator_c/pubsub_demo/msg/detail/custom_message__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/fayez/ros2_ws/build/pubsub_demo/rosidl_generator_c/pubsub_demo/srv/custom_service.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/fayez/ros2_ws/build/pubsub_demo/rosidl_generator_c/pubsub_demo/srv/detail/custom_service__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/fayez/ros2_ws/build/pubsub_demo/rosidl_generator_c/pubsub_demo/srv/detail/custom_service__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/fayez/ros2_ws/build/pubsub_demo/rosidl_generator_c/pubsub_demo/srv/detail/custom_service__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/fayez/ros2_ws/build/pubsub_demo/rosidl_generator_c/pubsub_demo/msg/detail/custom_message__description.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/fayez/ros2_ws/build/pubsub_demo/rosidl_generator_c/pubsub_demo/msg/detail/custom_message__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/fayez/ros2_ws/build/pubsub_demo/rosidl_generator_c/pubsub_demo/msg/detail/custom_message__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/fayez/ros2_ws/build/pubsub_demo/rosidl_generator_c/pubsub_demo/srv/detail/custom_service__description.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/fayez/ros2_ws/build/pubsub_demo/rosidl_generator_c/pubsub_demo/srv/detail/custom_service__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/fayez/ros2_ws/build/pubsub_demo/rosidl_generator_c/pubsub_demo/srv/detail/custom_service__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/fayez/ros2_ws/build/pubsub_demo/rosidl_generator_c/pubsub_demo/msg/custom_message.h.rule",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

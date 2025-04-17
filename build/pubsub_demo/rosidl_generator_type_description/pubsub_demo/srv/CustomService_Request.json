@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "pubsub_demo/srv/CustomService_Request",
+      "fields": [
+        {
+          "name": "request",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "pubsub_demo/msg/CustomMessage"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "pubsub_demo/msg/CustomMessage",
+        "fields": [
+          {
+            "name": "name",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "count",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "pubsub_demo/srv/CustomService_Request",
+      "hash_string": "RIHS01_218b279411ab5d34b9d45b075d20f8d46ff13ae2b4866575ea85f45fead83430"
+    },
+    {
+      "type_name": "pubsub_demo/msg/CustomMessage",
+      "hash_string": "RIHS01_7b3f8bc56a6015013fd888651713549c24d9bcfd2cb47c1a7257b08de165afc8"
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+[0.000000] (-) TimerEvent: {}
+[0.000114] (pubsub_demo) JobQueued: {'identifier': 'pubsub_demo', 'dependencies': OrderedDict()}
+[0.000134] (pubsub_demo) JobStarted: {'identifier': 'pubsub_demo'}
+[0.015358] (pubsub_demo) JobProgress: {'identifier': 'pubsub_demo', 'progress': 'cmake'}
+[0.018268] (pubsub_demo) JobProgress: {'identifier': 'pubsub_demo', 'progress': 'build'}
+[0.018762] (pubsub_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fayez/ros2_ws/build/pubsub_demo', '--', '-j20', '-l20'], 'cwd': '/home/fayez/ros2_ws/build/pubsub_demo', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'fayez', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'WT_PROFILE_ID': '{36d46caa-d224-54a7-bd50-06012e48d815}', 'HOME': '/home/fayez', 'OLDPWD': '/home/fayez', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'fayez', 'NAME': 'Fayez', 'WSL_INTEROP': '/run/WSL/5824_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/rolling/bin:/home/fayez/gsoc/beaglemind-cli/.venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/fayez/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/fayez/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/fayez/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/fayez/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/fayez/AppData/Roaming/npm:/snap/bin', 'WT_SESSION': 'c01feaf0-0a22-49cf-b902-50a3fd889a91', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/rolling', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/fayez/ros2_ws/build/pubsub_demo', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/rolling/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.099317] (-) TimerEvent: {}
+[0.158638] (pubsub_demo) StdoutLine: {'line': b'[  2%] Built target pubsub_demo__rosidl_generator_type_description\n'}
+[0.173875] (pubsub_demo) StdoutLine: {'line': b'[  4%] Built target pubsub_demo__cpp\n'}
+[0.175968] (pubsub_demo) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_pubsub_demo\n'}
+[0.179147] (pubsub_demo) StdoutLine: {'line': b'[ 22%] Built target pubsub_demo__rosidl_generator_c\n'}
+[0.199615] (-) TimerEvent: {}
+[0.200278] (pubsub_demo) StdoutLine: {'line': b'[ 31%] Built target pubsub_demo__rosidl_typesupport_c\n'}
+[0.201042] (pubsub_demo) StdoutLine: {'line': b'[ 40%] Built target pubsub_demo__rosidl_typesupport_introspection_c\n'}
+[0.202069] (pubsub_demo) StdoutLine: {'line': b'[ 50%] Built target pubsub_demo__rosidl_typesupport_introspection_cpp\n'}
+[0.203191] (pubsub_demo) StdoutLine: {'line': b'[ 59%] Built target pubsub_demo__rosidl_typesupport_cpp\n'}
+[0.205192] (pubsub_demo) StdoutLine: {'line': b'[ 68%] Built target pubsub_demo__rosidl_typesupport_fastrtps_cpp\n'}
+[0.208564] (pubsub_demo) StdoutLine: {'line': b'[ 77%] Built target pubsub_demo__rosidl_typesupport_fastrtps_c\n'}
+[0.221930] (pubsub_demo) StdoutLine: {'line': b'[ 77%] Built target pubsub_demo\n'}
+[0.235485] (pubsub_demo) StdoutLine: {'line': b'[ 79%] Built target pubsub_demo__py\n'}
+[0.253344] (pubsub_demo) StdoutLine: {'line': b'[ 86%] Built target pubsub_demo__rosidl_generator_py\n'}
+[0.269849] (pubsub_demo) StdoutLine: {'line': b'[ 90%] Built target pubsub_demo_s__rosidl_typesupport_fastrtps_c\n'}
+[0.270203] (pubsub_demo) StdoutLine: {'line': b'[ 95%] Built target pubsub_demo_s__rosidl_typesupport_introspection_c\n'}
+[0.270572] (pubsub_demo) StdoutLine: {'line': b'[100%] Built target pubsub_demo_s__rosidl_typesupport_c\n'}
+[0.299738] (-) TimerEvent: {}
+[0.400117] (-) TimerEvent: {}
+[0.409910] (pubsub_demo) StdoutLine: {'line': b'running egg_info\n'}
+[0.418735] (pubsub_demo) StdoutLine: {'line': b'writing pubsub_demo.egg-info/PKG-INFO\n'}
+[0.419766] (pubsub_demo) StdoutLine: {'line': b'writing dependency_links to pubsub_demo.egg-info/dependency_links.txt\n'}
+[0.419922] (pubsub_demo) StdoutLine: {'line': b'writing top-level names to pubsub_demo.egg-info/top_level.txt\n'}
+[0.447255] (pubsub_demo) StdoutLine: {'line': b"reading manifest file 'pubsub_demo.egg-info/SOURCES.txt'\n"}
+[0.448354] (pubsub_demo) StdoutLine: {'line': b"writing manifest file 'pubsub_demo.egg-info/SOURCES.txt'\n"}
+[0.467047] (pubsub_demo) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_pubsub_demo_egg\n'}
+[0.473066] (pubsub_demo) CommandEnded: {'returncode': 0}
+[0.476065] (pubsub_demo) JobProgress: {'identifier': 'pubsub_demo', 'progress': 'install'}
+[0.481123] (pubsub_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fayez/ros2_ws/build/pubsub_demo'], 'cwd': '/home/fayez/ros2_ws/build/pubsub_demo', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'fayez', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'WT_PROFILE_ID': '{36d46caa-d224-54a7-bd50-06012e48d815}', 'HOME': '/home/fayez', 'OLDPWD': '/home/fayez', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'fayez', 'NAME': 'Fayez', 'WSL_INTEROP': '/run/WSL/5824_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/rolling/bin:/home/fayez/gsoc/beaglemind-cli/.venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/fayez/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/fayez/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/fayez/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/fayez/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/fayez/AppData/Roaming/npm:/snap/bin', 'WT_SESSION': 'c01feaf0-0a22-49cf-b902-50a3fd889a91', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/rolling', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/fayez/ros2_ws/build/pubsub_demo', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/rolling/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.486127] (pubsub_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.487100] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/ament_index/resource_index/rosidl_interfaces/pubsub_demo\n'}
+[0.487200] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/msg/CustomMessage.json\n'}
+[0.487365] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/srv/CustomService.json\n'}
+[0.487416] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo\n'}
+[0.487507] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg\n'}
+[0.487964] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.488026] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail\n'}
+[0.488388] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail/custom_message__functions.h\n'}
+[0.488475] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail/custom_message__functions.c\n'}
+[0.488568] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail/custom_message__description.c\n'}
+[0.488613] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail/custom_message__type_support.c\n'}
+[0.488668] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail/custom_message__type_support.h\n'}
+[0.488833] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail/custom_message__struct.h\n'}
+[0.488955] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/custom_message.h\n'}
+[0.489049] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv\n'}
+[0.489185] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/custom_service.h\n'}
+[0.489285] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail\n'}
+[0.489418] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail/custom_service__functions.c\n'}
+[0.489525] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail/custom_service__type_support.h\n'}
+[0.489618] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail/custom_service__type_support.c\n'}
+[0.489709] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail/custom_service__functions.h\n'}
+[0.489800] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail/custom_service__struct.h\n'}
+[0.489890] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail/custom_service__description.c\n'}
+[0.490048] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/environment/library_path.sh\n'}
+[0.490135] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/environment/library_path.dsv\n'}
+[0.491000] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/lib/libpubsub_demo__rosidl_generator_c.so\n'}
+[0.491167] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo\n'}
+[0.491504] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg\n'}
+[0.491738] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.491881] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail\n'}
+[0.492110] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail/custom_message__rosidl_typesupport_fastrtps_c.h\n'}
+[0.492168] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv\n'}
+[0.492379] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail\n'}
+[0.492562] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail/custom_service__rosidl_typesupport_fastrtps_c.h\n'}
+[0.493005] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/lib/libpubsub_demo__rosidl_typesupport_fastrtps_c.so\n'}
+[0.493094] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo\n'}
+[0.493676] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg\n'}
+[0.493928] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.494064] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/custom_message.hpp\n'}
+[0.494181] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail\n'}
+[0.494413] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail/custom_message__traits.hpp\n'}
+[0.494521] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail/custom_message__struct.hpp\n'}
+[0.494652] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail/custom_message__type_support.hpp\n'}
+[0.494787] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail/custom_message__builder.hpp\n'}
+[0.494860] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv\n'}
+[0.494985] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail\n'}
+[0.495159] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail/custom_service__traits.hpp\n'}
+[0.495258] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail/custom_service__builder.hpp\n'}
+[0.495341] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail/custom_service__type_support.hpp\n'}
+[0.495378] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail/custom_service__struct.hpp\n'}
+[0.495471] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/custom_service.hpp\n'}
+[0.495545] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo\n'}
+[0.495645] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg\n'}
+[0.496029] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.496095] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail\n'}
+[0.496242] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail/custom_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.496310] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail/dds_fastrtps\n'}
+[0.496506] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv\n'}
+[0.496735] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail\n'}
+[0.496989] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail/custom_service__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.497040] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail/dds_fastrtps\n'}
+[0.497967] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/lib/libpubsub_demo__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.498075] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo\n'}
+[0.498358] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg\n'}
+[0.498594] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.498650] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail\n'}
+[0.498870] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail/custom_message__rosidl_typesupport_introspection_c.h\n'}
+[0.498977] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail/custom_message__type_support.c\n'}
+[0.499016] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv\n'}
+[0.499304] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail\n'}
+[0.499471] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail/custom_service__rosidl_typesupport_introspection_c.h\n'}
+[0.499533] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail/custom_service__type_support.c\n'}
+[0.500040] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/lib/libpubsub_demo__rosidl_typesupport_introspection_c.so\n'}
+[0.500178] (-) TimerEvent: {}
+[0.500569] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/lib/libpubsub_demo__rosidl_typesupport_c.so\n'}
+[0.500747] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo\n'}
+[0.501015] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg\n'}
+[0.501606] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail\n'}
+[0.501736] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail/custom_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.501874] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail/custom_message__type_support.cpp\n'}
+[0.502032] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv\n'}
+[0.502127] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail\n'}
+[0.502514] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail/custom_service__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.502561] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail/custom_service__type_support.cpp\n'}
+[0.503376] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/lib/libpubsub_demo__rosidl_typesupport_introspection_cpp.so\n'}
+[0.504187] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/lib/libpubsub_demo__rosidl_typesupport_cpp.so\n'}
+[0.504299] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/environment/pythonpath.sh\n'}
+[0.504447] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/environment/pythonpath.dsv\n'}
+[0.504536] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo-0.0.1-py3.12.egg-info\n'}
+[0.504576] (pubsub_demo) StdoutLine: {'line': b'-- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo-0.0.1-py3.12.egg-info/PKG-INFO\n'}
+[0.504781] (pubsub_demo) StdoutLine: {'line': b'-- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo-0.0.1-py3.12.egg-info/dependency_links.txt\n'}
+[0.504877] (pubsub_demo) StdoutLine: {'line': b'-- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo-0.0.1-py3.12.egg-info/top_level.txt\n'}
+[0.504966] (pubsub_demo) StdoutLine: {'line': b'-- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo-0.0.1-py3.12.egg-info/SOURCES.txt\n'}
+[0.505100] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo\n'}
+[0.505214] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/pubsub_demo_s__rosidl_typesupport_fastrtps_c.so\n'}
+[0.505339] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/__init__.py\n'}
+[0.505496] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/_pubsub_demo_s.ep.rosidl_typesupport_c.c\n'}
+[0.505594] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/msg\n'}
+[0.505690] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/msg/__init__.py\n'}
+[0.505791] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/msg/_custom_message.py\n'}
+[0.505883] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/msg/_custom_message_s.c\n'}
+[0.506045] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/pubsub_demo_s__rosidl_typesupport_c.so\n'}
+[0.506095] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/pubsub_demo_s__rosidl_typesupport_introspection_c.so\n'}
+[0.506129] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/srv\n'}
+[0.506162] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/srv/_custom_service_s.c\n'}
+[0.506193] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/srv/__init__.py\n'}
+[0.506225] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/srv/_custom_service.py\n'}
+[0.506256] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/_pubsub_demo_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.506286] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/_pubsub_demo_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.531347] (pubsub_demo) StdoutLine: {'line': b"Listing '/home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo'...\n"}
+[0.531467] (pubsub_demo) StdoutLine: {'line': b"Listing '/home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/msg'...\n"}
+[0.531505] (pubsub_demo) StdoutLine: {'line': b"Listing '/home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/srv'...\n"}
+[0.535800] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/pubsub_demo_s__rosidl_typesupport_fastrtps_c.so\n'}
+[0.536572] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/pubsub_demo_s__rosidl_typesupport_introspection_c.so\n'}
+[0.537159] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/pubsub_demo_s__rosidl_typesupport_c.so\n'}
+[0.537597] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/lib/libpubsub_demo__rosidl_generator_py.so\n'}
+[0.537702] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/msg/CustomMessage.idl\n'}
+[0.537841] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/srv/CustomService.idl\n'}
+[0.537924] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/msg/CustomMessage.msg\n'}
+[0.538035] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/srv/CustomService.srv\n'}
+[0.538129] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/lib/pubsub_demo/talker.py\n'}
+[0.538220] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/lib/pubsub_demo/listener.py\n'}
+[0.538311] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/lib/pubsub_demo/client.py\n'}
+[0.538403] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/lib/pubsub_demo/server.py\n'}
+[0.538536] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/\n'}
+[0.538694] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo//pubsub_demo\n'}
+[0.538776] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/ament_index/resource_index/package_run_dependencies/pubsub_demo\n'}
+[0.538908] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/ament_index/resource_index/parent_prefix_path/pubsub_demo\n'}
+[0.538944] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/environment/ament_prefix_path.sh\n'}
+[0.538977] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/environment/ament_prefix_path.dsv\n'}
+[0.539008] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/environment/path.sh\n'}
+[0.539038] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/environment/path.dsv\n'}
+[0.539069] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/local_setup.bash\n'}
+[0.539098] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/local_setup.sh\n'}
+[0.539128] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/local_setup.zsh\n'}
+[0.539157] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/local_setup.dsv\n'}
+[0.539192] (pubsub_demo) StdoutLine: {'line': b'-- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/package.dsv\n'}
+[0.540128] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/ament_index/resource_index/packages/pubsub_demo\n'}
+[0.540989] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/export_pubsub_demo__rosidl_generator_cExport.cmake\n'}
+[0.541124] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/export_pubsub_demo__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.541942] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/export_pubsub_demo__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.542196] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/export_pubsub_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.542816] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/export_pubsub_demo__rosidl_generator_cppExport.cmake\n'}
+[0.543882] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/export_pubsub_demo__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.544183] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/export_pubsub_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.545121] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/pubsub_demo__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.545198] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/pubsub_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.545781] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/pubsub_demo__rosidl_typesupport_cExport.cmake\n'}
+[0.545870] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/pubsub_demo__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.546363] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/pubsub_demo__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.546495] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/pubsub_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.546902] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/pubsub_demo__rosidl_typesupport_cppExport.cmake\n'}
+[0.546964] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/pubsub_demo__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.547720] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/export_pubsub_demo__rosidl_generator_pyExport.cmake\n'}
+[0.547908] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/export_pubsub_demo__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.548030] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/rosidl_cmake-extras.cmake\n'}
+[0.548210] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.548268] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.548302] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.548335] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.548367] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.548398] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.548428] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/pubsub_demoConfig.cmake\n'}
+[0.548459] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/pubsub_demoConfig-version.cmake\n'}
+[0.548488] (pubsub_demo) StdoutLine: {'line': b'-- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/package.xml\n'}
+[0.550256] (pubsub_demo) CommandEnded: {'returncode': 0}
+[0.575522] (pubsub_demo) JobEnded: {'identifier': 'pubsub_demo', 'rc': 0}
+[0.576042] (-) EventReactorShutdown: {}

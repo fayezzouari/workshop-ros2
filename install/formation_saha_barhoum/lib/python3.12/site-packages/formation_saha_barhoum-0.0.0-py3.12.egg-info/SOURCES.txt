@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info/PKG-INFO
+../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info/SOURCES.txt
+../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info/dependency_links.txt
+../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info/requires.txt
+../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info/top_level.txt
+../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info/zip-safe
+formation_saha_barhoum/__init__.py
+resource/formation_saha_barhoum
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+test/test_xmllint.py

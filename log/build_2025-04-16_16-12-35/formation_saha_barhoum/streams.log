@@ -1,0 +1,19 @@
+[1.126s] Invoking command in '/home/fayez/ros2_ws/src/formation_saha_barhoum': PYTHONPATH=/home/fayez/ros2_ws/build/formation_saha_barhoum/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fayez/ros2_ws/install/formation_saha_barhoum/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/formation_saha_barhoum build --build-base /home/fayez/ros2_ws/build/formation_saha_barhoum/build install --record /home/fayez/ros2_ws/build/formation_saha_barhoum/install.log --single-version-externally-managed install_data
+[1.306s] running egg_info
+[1.316s] writing ../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info/PKG-INFO
+[1.317s] writing dependency_links to ../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info/dependency_links.txt
+[1.317s] writing requirements to ../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info/requires.txt
+[1.317s] writing top-level names to ../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info/top_level.txt
+[1.342s] reading manifest file '../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info/SOURCES.txt'
+[1.343s] writing manifest file '../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info/SOURCES.txt'
+[1.344s] running build
+[1.344s] running build_py
+[1.344s] running install
+[1.347s] running install_lib
+[1.362s] running install_data
+[1.362s] running install_egg_info
+[1.378s] removing '/home/fayez/ros2_ws/install/formation_saha_barhoum/lib/python3.12/site-packages/formation_saha_barhoum-0.0.0-py3.12.egg-info' (and everything under it)
+[1.379s] Copying ../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info to /home/fayez/ros2_ws/install/formation_saha_barhoum/lib/python3.12/site-packages/formation_saha_barhoum-0.0.0-py3.12.egg-info
+[1.381s] running install_scripts
+[1.485s] writing list of installed files to '/home/fayez/ros2_ws/build/formation_saha_barhoum/install.log'
+[1.505s] Invoked command in '/home/fayez/ros2_ws/src/formation_saha_barhoum' returned '0': PYTHONPATH=/home/fayez/ros2_ws/build/formation_saha_barhoum/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fayez/ros2_ws/install/formation_saha_barhoum/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/formation_saha_barhoum build --build-base /home/fayez/ros2_ws/build/formation_saha_barhoum/build install --record /home/fayez/ros2_ws/build/formation_saha_barhoum/install.log --single-version-externally-managed install_data

@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info
+writing ../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info/PKG-INFO
+writing dependency_links to ../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info/dependency_links.txt
+writing requirements to ../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info/requires.txt
+writing top-level names to ../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info/top_level.txt
+writing manifest file '../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info/SOURCES.txt'
+reading manifest file '../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info/SOURCES.txt'
+writing manifest file '../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/fayez/ros2_ws/build/formation_saha_barhoum/build
+creating /home/fayez/ros2_ws/build/formation_saha_barhoum/build/lib
+creating /home/fayez/ros2_ws/build/formation_saha_barhoum/build/lib/formation_saha_barhoum
+copying formation_saha_barhoum/__init__.py -> /home/fayez/ros2_ws/build/formation_saha_barhoum/build/lib/formation_saha_barhoum
+running install
+running install_lib
+creating /home/fayez/ros2_ws/install/formation_saha_barhoum/lib/python3.12/site-packages/formation_saha_barhoum
+copying /home/fayez/ros2_ws/build/formation_saha_barhoum/build/lib/formation_saha_barhoum/__init__.py -> /home/fayez/ros2_ws/install/formation_saha_barhoum/lib/python3.12/site-packages/formation_saha_barhoum
+byte-compiling /home/fayez/ros2_ws/install/formation_saha_barhoum/lib/python3.12/site-packages/formation_saha_barhoum/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/fayez/ros2_ws/install/formation_saha_barhoum/share/ament_index
+creating /home/fayez/ros2_ws/install/formation_saha_barhoum/share/ament_index/resource_index
+creating /home/fayez/ros2_ws/install/formation_saha_barhoum/share/ament_index/resource_index/packages
+copying resource/formation_saha_barhoum -> /home/fayez/ros2_ws/install/formation_saha_barhoum/share/ament_index/resource_index/packages
+copying package.xml -> /home/fayez/ros2_ws/install/formation_saha_barhoum/share/formation_saha_barhoum
+running install_egg_info
+Copying ../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info to /home/fayez/ros2_ws/install/formation_saha_barhoum/lib/python3.12/site-packages/formation_saha_barhoum-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/fayez/ros2_ws/build/formation_saha_barhoum/install.log'

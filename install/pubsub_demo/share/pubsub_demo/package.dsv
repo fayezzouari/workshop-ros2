@@ -1,0 +1,14 @@
+source;share/pubsub_demo/hook/cmake_prefix_path.ps1
+source;share/pubsub_demo/hook/cmake_prefix_path.dsv
+source;share/pubsub_demo/hook/cmake_prefix_path.sh
+source;share/pubsub_demo/hook/ld_library_path_lib.ps1
+source;share/pubsub_demo/hook/ld_library_path_lib.dsv
+source;share/pubsub_demo/hook/ld_library_path_lib.sh
+source;share/pubsub_demo/hook/pythonpath.ps1
+source;share/pubsub_demo/hook/pythonpath.dsv
+source;share/pubsub_demo/hook/pythonpath.sh
+source;share/pubsub_demo/local_setup.bash
+source;share/pubsub_demo/local_setup.dsv
+source;share/pubsub_demo/local_setup.ps1
+source;share/pubsub_demo/local_setup.sh
+source;share/pubsub_demo/local_setup.zsh

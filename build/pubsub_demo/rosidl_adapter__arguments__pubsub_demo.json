@@ -1,0 +1,7 @@
+{
+  "package_name": "pubsub_demo",
+  "non_idl_tuples": [
+    "/home/fayez/ros2_ws/src/pubsub_demo:msg/CustomMessage.msg",
+    "/home/fayez/ros2_ws/src/pubsub_demo:srv/CustomService.srv"
+  ]
+}

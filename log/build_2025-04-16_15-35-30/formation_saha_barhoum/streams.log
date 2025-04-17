@@ -1,0 +1,32 @@
+[0.893s] Invoking command in '/home/fayez/ros2_ws/src/formation_saha_barhoum': PYTHONPATH=/home/fayez/ros2_ws/build/formation_saha_barhoum/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fayez/ros2_ws/install/formation_saha_barhoum/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/formation_saha_barhoum build --build-base /home/fayez/ros2_ws/build/formation_saha_barhoum/build install --record /home/fayez/ros2_ws/build/formation_saha_barhoum/install.log --single-version-externally-managed install_data
+[1.038s] running egg_info
+[1.038s] creating ../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info
+[1.049s] writing ../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info/PKG-INFO
+[1.049s] writing dependency_links to ../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info/dependency_links.txt
+[1.049s] writing requirements to ../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info/requires.txt
+[1.049s] writing top-level names to ../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info/top_level.txt
+[1.049s] writing manifest file '../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info/SOURCES.txt'
+[1.069s] reading manifest file '../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info/SOURCES.txt'
+[1.070s] writing manifest file '../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info/SOURCES.txt'
+[1.070s] running build
+[1.070s] running build_py
+[1.070s] creating /home/fayez/ros2_ws/build/formation_saha_barhoum/build
+[1.071s] creating /home/fayez/ros2_ws/build/formation_saha_barhoum/build/lib
+[1.072s] creating /home/fayez/ros2_ws/build/formation_saha_barhoum/build/lib/formation_saha_barhoum
+[1.072s] copying formation_saha_barhoum/__init__.py -> /home/fayez/ros2_ws/build/formation_saha_barhoum/build/lib/formation_saha_barhoum
+[1.072s] running install
+[1.077s] running install_lib
+[1.087s] creating /home/fayez/ros2_ws/install/formation_saha_barhoum/lib/python3.12/site-packages/formation_saha_barhoum
+[1.088s] copying /home/fayez/ros2_ws/build/formation_saha_barhoum/build/lib/formation_saha_barhoum/__init__.py -> /home/fayez/ros2_ws/install/formation_saha_barhoum/lib/python3.12/site-packages/formation_saha_barhoum
+[1.088s] byte-compiling /home/fayez/ros2_ws/install/formation_saha_barhoum/lib/python3.12/site-packages/formation_saha_barhoum/__init__.py to __init__.cpython-312.pyc
+[1.088s] running install_data
+[1.089s] creating /home/fayez/ros2_ws/install/formation_saha_barhoum/share/ament_index
+[1.089s] creating /home/fayez/ros2_ws/install/formation_saha_barhoum/share/ament_index/resource_index
+[1.089s] creating /home/fayez/ros2_ws/install/formation_saha_barhoum/share/ament_index/resource_index/packages
+[1.089s] copying resource/formation_saha_barhoum -> /home/fayez/ros2_ws/install/formation_saha_barhoum/share/ament_index/resource_index/packages
+[1.089s] copying package.xml -> /home/fayez/ros2_ws/install/formation_saha_barhoum/share/formation_saha_barhoum
+[1.089s] running install_egg_info
+[1.099s] Copying ../../build/formation_saha_barhoum/formation_saha_barhoum.egg-info to /home/fayez/ros2_ws/install/formation_saha_barhoum/lib/python3.12/site-packages/formation_saha_barhoum-0.0.0-py3.12.egg-info
+[1.100s] running install_scripts
+[1.168s] writing list of installed files to '/home/fayez/ros2_ws/build/formation_saha_barhoum/install.log'
+[1.186s] Invoked command in '/home/fayez/ros2_ws/src/formation_saha_barhoum' returned '0': PYTHONPATH=/home/fayez/ros2_ws/build/formation_saha_barhoum/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fayez/ros2_ws/install/formation_saha_barhoum/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/formation_saha_barhoum build --build-base /home/fayez/ros2_ws/build/formation_saha_barhoum/build install --record /home/fayez/ros2_ws/build/formation_saha_barhoum/install.log --single-version-externally-managed install_data

@@ -1,0 +1,280 @@
+[0.006s] Invoking command in '/home/fayez/ros2_ws/build/pubsub_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fayez/ros2_ws/install/pubsub_demo:/opt/ros/rolling /usr/bin/cmake /home/fayez/ros2_ws/src/pubsub_demo -DCMAKE_INSTALL_PREFIX=/home/fayez/ros2_ws/install/pubsub_demo
+[0.013s] -- Found ament_cmake: 2.7.2 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.026s] -- Found Python3: /home/fayez/gsoc/beaglemind-cli/.venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.076s] -- Found rclpy: 9.0.0 (/opt/ros/rolling/share/rclpy/cmake)
+[0.076s] -- Found std_msgs: 5.5.0 (/opt/ros/rolling/share/std_msgs/cmake)
+[0.144s] -- Found rosidl_generator_c: 4.9.3 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[0.149s] -- Found rosidl_generator_cpp: 4.9.3 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[0.156s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.163s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.179s] -- Found rosidl_default_generators: 1.7.1 (/opt/ros/rolling/share/rosidl_default_generators/cmake)
+[0.184s] -- Found rosidl_adapter: 4.9.3 (/opt/ros/rolling/share/rosidl_adapter/cmake)
+[0.350s] -- Found ament_cmake_ros: 0.14.0 (/opt/ros/rolling/share/ament_cmake_ros/cmake)
+[0.457s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.499s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.787s] -- Found Python3: /home/fayez/gsoc/beaglemind-cli/.venv/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[0.800s] -- Found ament_lint_auto: 0.19.1 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+[0.805s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.806s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.806s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.806s] -- Added test 'lint_cmake' to check CMake code style
+[0.806s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.807s] -- Added test 'xmllint' to check XML markup files
+[0.808s] -- Configuring done (0.8s)
+[0.845s] -- Generating done (0.0s)
+[0.852s] -- Build files have been written to: /home/fayez/ros2_ws/build/pubsub_demo
+[0.856s] Invoked command in '/home/fayez/ros2_ws/build/pubsub_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fayez/ros2_ws/install/pubsub_demo:/opt/ros/rolling /usr/bin/cmake /home/fayez/ros2_ws/src/pubsub_demo -DCMAKE_INSTALL_PREFIX=/home/fayez/ros2_ws/install/pubsub_demo
+[0.857s] Invoking command in '/home/fayez/ros2_ws/build/pubsub_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fayez/ros2_ws/install/pubsub_demo:/opt/ros/rolling /usr/bin/cmake --build /home/fayez/ros2_ws/build/pubsub_demo -- -j20 -l20
+[0.883s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[0.886s] [  2%] Built target ament_cmake_python_copy_pubsub_demo
+[1.027s] [  2%] Built target pubsub_demo__rosidl_generator_type_description
+[1.032s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.037s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.125s] running egg_info
+[1.134s] creating pubsub_demo.egg-info
+[1.134s] writing pubsub_demo.egg-info/PKG-INFO
+[1.134s] writing dependency_links to pubsub_demo.egg-info/dependency_links.txt
+[1.134s] writing top-level names to pubsub_demo.egg-info/top_level.txt
+[1.135s] writing manifest file 'pubsub_demo.egg-info/SOURCES.txt'
+[1.163s] reading manifest file 'pubsub_demo.egg-info/SOURCES.txt'
+[1.163s] writing manifest file 'pubsub_demo.egg-info/SOURCES.txt'
+[1.182s] [  6%] Built target ament_cmake_python_build_pubsub_demo_egg
+[1.258s] [  6%] Built target pubsub_demo__cpp
+[1.294s] [  9%] [32mBuilding C object CMakeFiles/pubsub_demo__rosidl_generator_c.dir/rosidl_generator_c/pubsub_demo/msg/detail/custom_message__description.c.o[0m
+[1.294s] [ 11%] [32mBuilding C object CMakeFiles/pubsub_demo__rosidl_generator_c.dir/rosidl_generator_c/pubsub_demo/msg/detail/custom_message__functions.c.o[0m
+[1.294s] [ 13%] [32mBuilding C object CMakeFiles/pubsub_demo__rosidl_generator_c.dir/rosidl_generator_c/pubsub_demo/srv/detail/custom_service__description.c.o[0m
+[1.294s] [ 15%] [32mBuilding C object CMakeFiles/pubsub_demo__rosidl_generator_c.dir/rosidl_generator_c/pubsub_demo/msg/detail/custom_message__type_support.c.o[0m
+[1.294s] [ 18%] [32mBuilding C object CMakeFiles/pubsub_demo__rosidl_generator_c.dir/rosidl_generator_c/pubsub_demo/srv/detail/custom_service__functions.c.o[0m
+[1.296s] [ 20%] [32mBuilding C object CMakeFiles/pubsub_demo__rosidl_generator_c.dir/rosidl_generator_c/pubsub_demo/srv/detail/custom_service__type_support.c.o[0m
+[1.433s] [ 22%] [32m[1mLinking C shared library libpubsub_demo__rosidl_generator_c.so[0m
+[1.512s] [ 22%] Built target pubsub_demo__rosidl_generator_c
+[1.518s] [ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.518s] [ 31%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.518s] [ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.518s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.518s] [ 34%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.521s] [ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.709s] [ 40%] [32mBuilding CXX object CMakeFiles/pubsub_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pubsub_demo/srv/custom_service__type_support.cpp.o[0m
+[1.709s] [ 40%] [32mBuilding CXX object CMakeFiles/pubsub_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pubsub_demo/msg/custom_message__type_support.cpp.o[0m
+[1.711s] [ 43%] [32mBuilding CXX object CMakeFiles/pubsub_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/pubsub_demo/msg/custom_message__type_support.cpp.o[0m
+[1.711s] [ 45%] [32mBuilding CXX object CMakeFiles/pubsub_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/pubsub_demo/srv/custom_service__type_support.cpp.o[0m
+[1.736s] [ 47%] [32mBuilding CXX object CMakeFiles/pubsub_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pubsub_demo/msg/detail/custom_message__type_support.cpp.o[0m
+[1.738s] [ 50%] [32mBuilding CXX object CMakeFiles/pubsub_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pubsub_demo/srv/detail/custom_service__type_support.cpp.o[0m
+[1.759s] [ 52%] [32mBuilding C object CMakeFiles/pubsub_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pubsub_demo/msg/detail/custom_message__type_support.c.o[0m
+[1.759s] [ 54%] [32mBuilding C object CMakeFiles/pubsub_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pubsub_demo/srv/detail/custom_service__type_support.c.o[0m
+[1.793s] [ 59%] [32mBuilding CXX object CMakeFiles/pubsub_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pubsub_demo/srv/detail/dds_fastrtps/custom_service__type_support.cpp.o[0m
+[1.793s] [ 59%] [32mBuilding CXX object CMakeFiles/pubsub_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pubsub_demo/msg/detail/dds_fastrtps/custom_message__type_support.cpp.o[0m
+[1.802s] [ 61%] [32m[1mLinking C shared library libpubsub_demo__rosidl_typesupport_introspection_c.so[0m
+[1.814s] [ 65%] [32mBuilding CXX object CMakeFiles/pubsub_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pubsub_demo/msg/detail/custom_message__type_support_c.cpp.o[0m
+[1.814s] [ 65%] [32mBuilding CXX object CMakeFiles/pubsub_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pubsub_demo/srv/detail/custom_service__type_support_c.cpp.o[0m
+[1.844s] [ 68%] [32m[1mLinking CXX shared library libpubsub_demo__rosidl_typesupport_c.so[0m
+[1.890s] [ 68%] Built target pubsub_demo__rosidl_typesupport_introspection_c
+[1.946s] [ 68%] Built target pubsub_demo__rosidl_typesupport_c
+[2.132s] [ 70%] [32m[1mLinking CXX shared library libpubsub_demo__rosidl_typesupport_cpp.so[0m
+[2.149s] [ 72%] [32m[1mLinking CXX shared library libpubsub_demo__rosidl_typesupport_introspection_cpp.so[0m
+[2.214s] [ 75%] [32m[1mLinking CXX shared library libpubsub_demo__rosidl_typesupport_fastrtps_c.so[0m
+[2.255s] [ 75%] Built target pubsub_demo__rosidl_typesupport_cpp
+[2.268s] [ 75%] Built target pubsub_demo__rosidl_typesupport_introspection_cpp
+[2.288s] [ 77%] [32m[1mLinking CXX shared library libpubsub_demo__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.341s] [ 77%] Built target pubsub_demo__rosidl_typesupport_fastrtps_c
+[2.374s] [ 77%] Built target pubsub_demo__rosidl_typesupport_fastrtps_cpp
+[2.383s] [ 77%] Built target pubsub_demo
+[2.392s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.688s] [ 79%] Built target pubsub_demo__py
+[2.698s] [ 84%] [32mBuilding C object CMakeFiles/pubsub_demo__rosidl_generator_py.dir/rosidl_generator_py/pubsub_demo/srv/_custom_service_s.c.o[0m
+[2.698s] [ 84%] [32mBuilding C object CMakeFiles/pubsub_demo__rosidl_generator_py.dir/rosidl_generator_py/pubsub_demo/msg/_custom_message_s.c.o[0m
+[2.825s] [ 86%] [32m[1mLinking C shared library libpubsub_demo__rosidl_generator_py.so[0m
+[2.887s] [ 86%] Built target pubsub_demo__rosidl_generator_py
+[2.897s] [ 88%] [32mBuilding C object CMakeFiles/pubsub_demo_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/pubsub_demo/_pubsub_demo_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.897s] [ 90%] [32mBuilding C object CMakeFiles/pubsub_demo_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/pubsub_demo/_pubsub_demo_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.898s] [ 93%] [32mBuilding C object CMakeFiles/pubsub_demo_s__rosidl_typesupport_c.dir/rosidl_generator_py/pubsub_demo/_pubsub_demo_s.ep.rosidl_typesupport_c.c.o[0m
+[2.957s] [100%] [32m[1mLinking C shared module rosidl_generator_py/pubsub_demo/pubsub_demo_s__rosidl_typesupport_c.so[0m
+[2.957s] [100%] [32m[1mLinking C shared module rosidl_generator_py/pubsub_demo/pubsub_demo_s__rosidl_typesupport_fastrtps_c.so[0m
+[2.958s] [100%] [32m[1mLinking C shared module rosidl_generator_py/pubsub_demo/pubsub_demo_s__rosidl_typesupport_introspection_c.so[0m
+[2.999s] [100%] Built target pubsub_demo_s__rosidl_typesupport_fastrtps_c
+[2.999s] [100%] Built target pubsub_demo_s__rosidl_typesupport_c
+[2.999s] [100%] Built target pubsub_demo_s__rosidl_typesupport_introspection_c
+[3.005s] Invoked command in '/home/fayez/ros2_ws/build/pubsub_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fayez/ros2_ws/install/pubsub_demo:/opt/ros/rolling /usr/bin/cmake --build /home/fayez/ros2_ws/build/pubsub_demo -- -j20 -l20
+[3.010s] Invoking command in '/home/fayez/ros2_ws/build/pubsub_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fayez/ros2_ws/install/pubsub_demo:/opt/ros/rolling /usr/bin/cmake --install /home/fayez/ros2_ws/build/pubsub_demo
+[3.015s] -- Install configuration: ""
+[3.015s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/ament_index/resource_index/rosidl_interfaces/pubsub_demo
+[3.015s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/msg/CustomMessage.json
+[3.015s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/srv/CustomService.json
+[3.015s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo
+[3.015s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg
+[3.016s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/rosidl_generator_c__visibility_control.h
+[3.016s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail
+[3.016s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail/custom_message__functions.h
+[3.016s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail/custom_message__functions.c
+[3.016s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail/custom_message__description.c
+[3.016s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail/custom_message__type_support.c
+[3.016s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail/custom_message__type_support.h
+[3.016s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail/custom_message__struct.h
+[3.016s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/custom_message.h
+[3.016s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv
+[3.016s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/custom_service.h
+[3.017s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail
+[3.017s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail/custom_service__functions.c
+[3.017s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail/custom_service__type_support.h
+[3.017s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail/custom_service__type_support.c
+[3.017s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail/custom_service__functions.h
+[3.017s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail/custom_service__struct.h
+[3.017s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail/custom_service__description.c
+[3.017s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/environment/library_path.sh
+[3.017s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/environment/library_path.dsv
+[3.017s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/libpubsub_demo__rosidl_generator_c.so
+[3.017s] -- Set non-toolchain portion of runtime path of "/home/fayez/ros2_ws/install/pubsub_demo/lib/libpubsub_demo__rosidl_generator_c.so" to ""
+[3.018s] -- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo
+[3.018s] -- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg
+[3.018s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.018s] -- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail
+[3.018s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail/custom_message__rosidl_typesupport_fastrtps_c.h
+[3.018s] -- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv
+[3.018s] -- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail
+[3.018s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail/custom_service__rosidl_typesupport_fastrtps_c.h
+[3.018s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/libpubsub_demo__rosidl_typesupport_fastrtps_c.so
+[3.018s] -- Set non-toolchain portion of runtime path of "/home/fayez/ros2_ws/install/pubsub_demo/lib/libpubsub_demo__rosidl_typesupport_fastrtps_c.so" to ""
+[3.019s] -- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo
+[3.019s] -- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg
+[3.019s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.019s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/custom_message.hpp
+[3.019s] -- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail
+[3.019s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail/custom_message__traits.hpp
+[3.019s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail/custom_message__struct.hpp
+[3.019s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail/custom_message__type_support.hpp
+[3.019s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail/custom_message__builder.hpp
+[3.019s] -- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv
+[3.019s] -- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail
+[3.019s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail/custom_service__traits.hpp
+[3.019s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail/custom_service__builder.hpp
+[3.020s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail/custom_service__type_support.hpp
+[3.020s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail/custom_service__struct.hpp
+[3.020s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/custom_service.hpp
+[3.020s] -- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo
+[3.020s] -- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg
+[3.020s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.020s] -- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail
+[3.020s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail/custom_message__rosidl_typesupport_fastrtps_cpp.hpp
+[3.020s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail/dds_fastrtps
+[3.020s] -- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv
+[3.021s] -- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail
+[3.021s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail/custom_service__rosidl_typesupport_fastrtps_cpp.hpp
+[3.021s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail/dds_fastrtps
+[3.021s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/libpubsub_demo__rosidl_typesupport_fastrtps_cpp.so
+[3.021s] -- Set non-toolchain portion of runtime path of "/home/fayez/ros2_ws/install/pubsub_demo/lib/libpubsub_demo__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.021s] -- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo
+[3.021s] -- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg
+[3.021s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.021s] -- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail
+[3.021s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail/custom_message__rosidl_typesupport_introspection_c.h
+[3.021s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail/custom_message__type_support.c
+[3.022s] -- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv
+[3.022s] -- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail
+[3.022s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail/custom_service__rosidl_typesupport_introspection_c.h
+[3.022s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail/custom_service__type_support.c
+[3.022s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/libpubsub_demo__rosidl_typesupport_introspection_c.so
+[3.022s] -- Set non-toolchain portion of runtime path of "/home/fayez/ros2_ws/install/pubsub_demo/lib/libpubsub_demo__rosidl_typesupport_introspection_c.so" to ""
+[3.022s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/libpubsub_demo__rosidl_typesupport_c.so
+[3.022s] -- Set non-toolchain portion of runtime path of "/home/fayez/ros2_ws/install/pubsub_demo/lib/libpubsub_demo__rosidl_typesupport_c.so" to ""
+[3.022s] -- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo
+[3.022s] -- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg
+[3.022s] -- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail
+[3.022s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail/custom_message__rosidl_typesupport_introspection_cpp.hpp
+[3.022s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/msg/detail/custom_message__type_support.cpp
+[3.022s] -- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv
+[3.022s] -- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail
+[3.022s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail/custom_service__rosidl_typesupport_introspection_cpp.hpp
+[3.023s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/include/pubsub_demo/pubsub_demo/srv/detail/custom_service__type_support.cpp
+[3.023s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/libpubsub_demo__rosidl_typesupport_introspection_cpp.so
+[3.023s] -- Set non-toolchain portion of runtime path of "/home/fayez/ros2_ws/install/pubsub_demo/lib/libpubsub_demo__rosidl_typesupport_introspection_cpp.so" to ""
+[3.023s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/libpubsub_demo__rosidl_typesupport_cpp.so
+[3.023s] -- Set non-toolchain portion of runtime path of "/home/fayez/ros2_ws/install/pubsub_demo/lib/libpubsub_demo__rosidl_typesupport_cpp.so" to ""
+[3.023s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/environment/pythonpath.sh
+[3.023s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/environment/pythonpath.dsv
+[3.023s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo-0.0.1-py3.12.egg-info
+[3.023s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo-0.0.1-py3.12.egg-info/PKG-INFO
+[3.023s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo-0.0.1-py3.12.egg-info/dependency_links.txt
+[3.023s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo-0.0.1-py3.12.egg-info/top_level.txt
+[3.023s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo-0.0.1-py3.12.egg-info/SOURCES.txt
+[3.023s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo
+[3.023s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/pubsub_demo_s__rosidl_typesupport_fastrtps_c.so
+[3.023s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/__init__.py
+[3.023s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/_pubsub_demo_s.ep.rosidl_typesupport_c.c
+[3.023s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/msg
+[3.023s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/msg/__init__.py
+[3.023s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/msg/_custom_message.py
+[3.023s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/msg/_custom_message_s.c
+[3.023s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/pubsub_demo_s__rosidl_typesupport_c.so
+[3.023s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/pubsub_demo_s__rosidl_typesupport_introspection_c.so
+[3.023s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/srv
+[3.023s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/srv/_custom_service_s.c
+[3.023s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/srv/__init__.py
+[3.023s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/srv/_custom_service.py
+[3.023s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/_pubsub_demo_s.ep.rosidl_typesupport_introspection_c.c
+[3.023s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/_pubsub_demo_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.052s] Listing '/home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo'...
+[3.052s] Compiling '/home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/__init__.py'...
+[3.052s] Listing '/home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/msg'...
+[3.052s] Compiling '/home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/msg/__init__.py'...
+[3.052s] Compiling '/home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/msg/_custom_message.py'...
+[3.052s] Listing '/home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/srv'...
+[3.052s] Compiling '/home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/srv/__init__.py'...
+[3.052s] Compiling '/home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/srv/_custom_service.py'...
+[3.056s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/pubsub_demo_s__rosidl_typesupport_fastrtps_c.so
+[3.056s] -- Set non-toolchain portion of runtime path of "/home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/pubsub_demo_s__rosidl_typesupport_fastrtps_c.so" to ""
+[3.056s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/pubsub_demo_s__rosidl_typesupport_introspection_c.so
+[3.056s] -- Set non-toolchain portion of runtime path of "/home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/pubsub_demo_s__rosidl_typesupport_introspection_c.so" to ""
+[3.056s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/pubsub_demo_s__rosidl_typesupport_c.so
+[3.056s] -- Set non-toolchain portion of runtime path of "/home/fayez/ros2_ws/install/pubsub_demo/lib/python3.12/site-packages/pubsub_demo/pubsub_demo_s__rosidl_typesupport_c.so" to ""
+[3.056s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/libpubsub_demo__rosidl_generator_py.so
+[3.057s] -- Set non-toolchain portion of runtime path of "/home/fayez/ros2_ws/install/pubsub_demo/lib/libpubsub_demo__rosidl_generator_py.so" to ""
+[3.057s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/msg/CustomMessage.idl
+[3.057s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/srv/CustomService.idl
+[3.057s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/msg/CustomMessage.msg
+[3.057s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/srv/CustomService.srv
+[3.057s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/pubsub_demo/talker.py
+[3.057s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/pubsub_demo/listener.py
+[3.057s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/pubsub_demo/client.py
+[3.057s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/lib/pubsub_demo/server.py
+[3.058s] -- Up-to-date: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/
+[3.058s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo//pubsub_demo
+[3.058s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/ament_index/resource_index/package_run_dependencies/pubsub_demo
+[3.058s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/ament_index/resource_index/parent_prefix_path/pubsub_demo
+[3.058s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/environment/ament_prefix_path.sh
+[3.058s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/environment/ament_prefix_path.dsv
+[3.058s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/environment/path.sh
+[3.058s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/environment/path.dsv
+[3.058s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/local_setup.bash
+[3.058s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/local_setup.sh
+[3.058s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/local_setup.zsh
+[3.059s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/local_setup.dsv
+[3.059s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/package.dsv
+[3.059s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/ament_index/resource_index/packages/pubsub_demo
+[3.059s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/export_pubsub_demo__rosidl_generator_cExport.cmake
+[3.059s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/export_pubsub_demo__rosidl_generator_cExport-noconfig.cmake
+[3.059s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/export_pubsub_demo__rosidl_typesupport_fastrtps_cExport.cmake
+[3.059s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/export_pubsub_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.059s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/export_pubsub_demo__rosidl_generator_cppExport.cmake
+[3.059s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/export_pubsub_demo__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.059s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/export_pubsub_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.060s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/pubsub_demo__rosidl_typesupport_introspection_cExport.cmake
+[3.060s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/pubsub_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.060s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/pubsub_demo__rosidl_typesupport_cExport.cmake
+[3.060s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/pubsub_demo__rosidl_typesupport_cExport-noconfig.cmake
+[3.060s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/pubsub_demo__rosidl_typesupport_introspection_cppExport.cmake
+[3.060s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/pubsub_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.060s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/pubsub_demo__rosidl_typesupport_cppExport.cmake
+[3.060s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/pubsub_demo__rosidl_typesupport_cppExport-noconfig.cmake
+[3.060s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/export_pubsub_demo__rosidl_generator_pyExport.cmake
+[3.060s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/export_pubsub_demo__rosidl_generator_pyExport-noconfig.cmake
+[3.061s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/rosidl_cmake-extras.cmake
+[3.061s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.061s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.061s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/ament_cmake_export_libraries-extras.cmake
+[3.061s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/ament_cmake_export_targets-extras.cmake
+[3.061s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.061s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.061s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/pubsub_demoConfig.cmake
+[3.061s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/cmake/pubsub_demoConfig-version.cmake
+[3.061s] -- Installing: /home/fayez/ros2_ws/install/pubsub_demo/share/pubsub_demo/package.xml
+[3.062s] Invoked command in '/home/fayez/ros2_ws/build/pubsub_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fayez/ros2_ws/install/pubsub_demo:/opt/ros/rolling /usr/bin/cmake --install /home/fayez/ros2_ws/build/pubsub_demo
